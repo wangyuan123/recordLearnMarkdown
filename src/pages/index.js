@@ -1,13 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
-import Header from "../components/header"
+import { Image } from 'antd';
+
+import Layout from "../components/layout"
 
 const Home = () => (
-  <div style={{ color: `purple` }}>
-    <Link to="/contact/">Contact</Link>
-    <Header headerText="Hello Gatsby!" />
-    <p>What a world.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
-  </div>
+  <Layout>
+    <Image.PreviewGroup>
+    <Image
+      width={"100%"}
+      src="https://backiee.com/static/wpdb/wallpapers/v2/1000x563/341510.jpg"
+    />
+  </Image.PreviewGroup>
+  </Layout>
 )
 export default Home;

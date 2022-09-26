@@ -6,6 +6,7 @@
   "homepage": "https://yuanwang12.github.io",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "antd": "^4.23.2",
     "gatsby": "^4.23.0",
     "gatsby-plugin-image": "^2.23.0",
     "gatsby-plugin-manifest": "^4.23.0",
@@ -31,7 +32,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
     "predeploy": "gatsby build"
   },
   "repository": {
