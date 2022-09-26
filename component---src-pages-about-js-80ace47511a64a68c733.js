@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[682],{4633:function(e,t,a){a.r(t);var l=a(7294),r=a(2607);t.default=function(){return l.createElement("div",{style:{color:"teal"}},l.createElement(r.Z,{siteTitle:"拉布拉多汪汪汪"}),l.createElement("p",null,"Such wow. Very React."))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-80ace47511a64a68c733.js.map
