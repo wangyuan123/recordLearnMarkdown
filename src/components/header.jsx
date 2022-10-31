@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 // import { Link } from "gatsby"
 import { PageHeader, Input, Tag } from 'antd';
 
+import * as styles from './header.module.css';
+
 const { Search } = Input;
 const Header = ({ siteTitle }) => {
 
@@ -32,7 +34,7 @@ const Header = ({ siteTitle }) => {
     //   </Link>
     // </header>
     <PageHeader
-      className="site-page-header"
+      className={styles.siteHeader}
       onBack={false}
       extra={extraDom}
       title={siteTitle}
