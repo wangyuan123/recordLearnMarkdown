@@ -38,11 +38,7 @@ export default function Index() {
   }
 
   const items: MenuItem[] = [
-    getItem('Option 1', '1', <PieChartOutlined />),
-    getItem('Option 2', '2', <DesktopOutlined />),
-    getItem('Option 3', '3', <ContainerOutlined />),
-  
-    getItem('Navigation One', 'sub1', <MailOutlined />, [
+    getItem('qi', 'sub1', <MailOutlined />, [
       getItem('Option 5', '5'),
       getItem('Option 6', '6'),
       getItem('Option 7', '7'),
@@ -61,6 +57,7 @@ export default function Index() {
    * 展开收起菜单
    */
   const toggleCollapsed = () => {
+    console.log('collapsed', collapsed);
     setCollapsed(!collapsed);
   };
   /**
